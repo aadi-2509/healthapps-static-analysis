@@ -1,0 +1,462 @@
+{
+  "version": "v4.4.0",
+  "title": "Static Analysis",
+  "file_name": "com.graphicvizion.visualAnatomy3D_UnityDataAssetPack_70.apk",
+  "app_name": "",
+  "app_type": "apk",
+  "size": "227.93MB",
+  "md5": "b7a85efb7d01d689d93924cbfcc75656",
+  "sha1": "6078b9843c2a46cb0badaec64f889f21fd0ddc80",
+  "sha256": "ee7e8a5309a48932764cec9b0aa1ac5bc88e42501e3a8e65f7e530ea6dbe2dc6",
+  "package_name": "com.graphicvizion.visualAnatomy3D",
+  "main_activity": "",
+  "exported_activities": "[]",
+  "browsable_activities": {},
+  "activities": [],
+  "receivers": [],
+  "providers": [],
+  "services": [],
+  "libraries": [],
+  "target_sdk": "",
+  "max_sdk": "",
+  "min_sdk": "",
+  "version_name": "",
+  "version_code": "70",
+  "icon_path": "",
+  "permissions": {
+    "android.permission.WRITE_EXTERNAL_STORAGE": {
+      "status": "dangerous",
+      "info": "read/modify/delete external storage contents",
+      "description": "Allows an application to write to external storage."
+    },
+    "android.permission.READ_PHONE_STATE": {
+      "status": "dangerous",
+      "info": "read phone state and identity",
+      "description": "Allows the application to access the phone features of the device. An application with this permission can determine the phone number and serial number of this phone, whether a call is active, the number that call is connected to and so on."
+    },
+    "android.permission.READ_EXTERNAL_STORAGE": {
+      "status": "dangerous",
+      "info": "read external storage contents",
+      "description": "Allows an application to read from external storage."
+    }
+  },
+  "malware_permissions": {
+    "top_malware_permissions": [
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.READ_EXTERNAL_STORAGE"
+    ],
+    "other_abused_permissions": [],
+    "total_malware_permissions": 25,
+    "total_other_permissions": 44
+  },
+  "certificate_analysis": {
+    "certificate_info": "Binary is signed\nv1 signature: True\nv2 signature: True\nv3 signature: True\nv4 signature: False\nX.509 Subject: C=US, ST=California, L=Mountain View, O=Google Inc., OU=Android, CN=Android\nSignature Algorithm: rsassa_pkcs1v15\nValid From: 2024-01-29 11:05:57+00:00\nValid To: 2054-01-29 11:05:57+00:00\nIssuer: C=US, ST=California, L=Mountain View, O=Google Inc., OU=Android, CN=Android\nSerial Number: 0xb0f1d0048cd199e52ae660073539a35e11d3d5f0\nHash Algorithm: sha256\nmd5: 5f2651d59275be6b31195f64f68e4689\nsha1: 5ba68b09418e7ec71cc387e8ceb6a0fdf47adc9d\nsha256: 72bae25d1efc8a935b8ea3d947ba4da1e62fde1ed02010c59e9267242cdbcfe1\nsha512: 3bdff45892e5c7cebf0af4b5fa795d3df9165845db08a574353bfaf08b4bb6db9cb479d20f7b3e74b3e9757d5694c0e5e33c98f35a898d20934fe6f8fb8fb8b8\nPublicKey Algorithm: rsa\nBit Size: 4096\nFingerprint: 187c20eb7b85f44758073618fdda0f3a15576de3e34e1817e0422313ba34e0f7\nFound 1 unique certificates",
+    "certificate_findings": [
+      [
+        "info",
+        "Application is signed with a code signing certificate",
+        "Signed Application"
+      ]
+    ],
+    "certificate_summary": {
+      "high": 0,
+      "warning": 0,
+      "info": 1
+    }
+  },
+  "manifest_analysis": {
+    "manifest_findings": [
+      {
+        "rule": "allowbackup_not_set",
+        "title": "Application Data can be Backed up<br>[android:allowBackup] flag is missing.",
+        "severity": "warning",
+        "description": "The flag [android:allowBackup] should be set to false. By default it is set to true and allows anyone to backup your application data via adb. It allows users who have enabled USB debugging to copy application data off of the device.",
+        "name": "Application Data can be Backed up [android:allowBackup] flag is missing.",
+        "component": []
+      }
+    ],
+    "manifest_summary": {
+      "high": 0,
+      "warning": 1,
+      "info": 0,
+      "suppressed": 0
+    }
+  },
+  "network_security": {
+    "network_findings": [],
+    "network_summary": {}
+  },
+  "binary_analysis": [],
+  "file_analysis": [],
+  "android_api": {},
+  "code_analysis": {
+    "findings": {},
+    "summary": {}
+  },
+  "niap_analysis": {},
+  "permission_mapping": {},
+  "urls": [],
+  "domains": {},
+  "emails": [],
+  "strings": {
+    "strings_apk_res": {},
+    "strings_so": [],
+    "strings_code": []
+  },
+  "firebase_urls": [],
+  "files": [
+    "AndroidManifest.xml",
+    "assets/.DS_Store",
+    "assets/UnityServicesProjectConfiguration.json",
+    "assets/_DATA/.DS_Store",
+    "assets/_DATA/selectionData/.DS_Store",
+    "assets/_DATA/selectionData/_files/.DS_Store",
+    "assets/_DATA/selectionData/_files/models/.DS_Store",
+    "assets/_DATA/selectionData/_files/models/gall_detail_1_bundles/gall_detail_1-_android",
+    "assets/_DATA/selectionData/_files/models/gall_detail_1_bundles/gall_detail_1-_ios",
+    "assets/_DATA/selectionData/_files/models/gall_detail_1_bundles/gall_detail_1-_osx",
+    "assets/_DATA/selectionData/_files/models/gall_detail_1_bundles/gall_detail_1-_wsa",
+    "assets/_DATA/selectionData/_files/models/gall_detail_1_bundles/gall_detail_1_metadata.txt",
+    "assets/_DATA/selectionData/_files/models/gall_detail_1_bundles/gall_detail_1_preview.png",
+    "assets/_DATA/selectionData/_files/models/gall_detail_1_bundlesREMOVE/.DS_Store",
+    "assets/_DATA/selectionData/_searchables/.DS_Store",
+    "assets/_DATA/selectionData/_searchables/en/naming.json",
+    "assets/_DATA/selectionData/_searchables/nl/naming.json",
+    "assets/bin/Data/datapack.unity3d",
+    "assets/filelist.txt",
+    "assets/localization/.DS_Store",
+    "assets/localization/localization.csv",
+    "assets/localization/localization_selectionObjects.csv",
+    "assets/readme.txt",
+    "assets/tutorials/.DS_Store",
+    "stamp-cert-sha256",
+    "META-INF/BNDLTOOL.SF",
+    "META-INF/BNDLTOOL.RSA",
+    "META-INF/MANIFEST.MF"
+  ],
+  "exported_count": {
+    "exported_activities": 0,
+    "exported_services": 0,
+    "exported_receivers": 0,
+    "exported_providers": 0
+  },
+  "apkid": {},
+  "behaviour": {},
+  "trackers": {
+    "detected_trackers": 0,
+    "total_trackers": 432,
+    "trackers": []
+  },
+  "playstore_details": {
+    "title": "Visual Anatomy 3D - Human body",
+    "description": "**The free version provides access to the ligament and skeletal systems. Upgrade to the premium version to unlock all additional systems and features.**\r\n\r\nStudy human anatomy the easiest and fastest way; visually and interactively. \r\nThe application is created and maintained by a team of enthusiastic medical professionals, visual artists, and programmers, to bring you the most reliable, detailed, and easiest anatomy app so you don't have to waste time.\r\n\r\nThe free version comes with most features and the ligamental and skeletal system, premium membership (with a subscription) will unlock all other anatomical systems and detail models while also helping us update and improve the app.\r\n\r\nFeatures of Visual Anatomy 3D app:\r\n-Explore anatomical systems with high-detail and interactivity, offering a comprehensive understanding of human anatomy.\r\n-complete 3D anatomy quiz, including all systems (including 3D anatomy quizzes for each system, which can be filtered by body part).\r\n-Each separate 3D human anatomy part is accompanied by extensive, informative descriptions.\r\n-pronunciation for each 3D human anatomy part\r\n-Customize the app; three different color themes, font size, speed, visual settings etc.\r\n-Advanced search functionality to efficiently find specific 3D Human anatomy parts, images or detailed anatomy models.\r\n-Save and load anatomy states\r\n-cross-platform functionality; one premium membership can be used across different platforms\r\n-cloud storages; store any anatomy notes or states in our cloud, and download them across different platforms.\r\n-Suitable for both landscape and portrait mode.\r\n-Isolate specific 3D anatomy parts for an in-depth study focus.\r\n-Draw directly on the screen for note-taking and share or save these notes for collaborative 3D human anatomy learning.\r\n\r\nRediscover 3D human anatomy, download the app for free, and discover what it can mean for you!\r\nFor any questions and/or feedback feel free to email us at any time: info@graphicvizion.com\r\n\r\nTerms of use: https://visualanatomy3d.app/app/policies/termsofuse.html\r\nPrivacy policy: https://visualanatomy3d.app/app/policies/privacypolicy.html",
+    "summary": "Human anatomy made easy.",
+    "installs": "100,000+",
+    "minInstalls": 100000,
+    "realInstalls": 264435,
+    "score": 3.6190476,
+    "ratings": 435,
+    "reviews": 8,
+    "histogram": [
+      62,
+      82,
+      41,
+      20,
+      227
+    ],
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "sale": false,
+    "saleTime": null,
+    "originalPrice": null,
+    "saleText": null,
+    "offersIAP": true,
+    "inAppProductPrice": "$8.99 - $23.99 per item",
+    "developer": "GraphicViZion",
+    "developerId": "5301315483168732583",
+    "developerEmail": "info@graphicvizion.com",
+    "developerWebsite": "https://visualanatomy3d.app",
+    "developerAddress": null,
+    "privacyPolicy": "https://visualanatomy3d.app/app/policies/privacypolicy.html",
+    "genre": "Medical",
+    "genreId": "MEDICAL",
+    "categories": [
+      {
+        "name": "Medical",
+        "id": "MEDICAL"
+      }
+    ],
+    "icon": "https://play-lh.googleusercontent.com/gMP7M2LcrchTdTD9N840hnFWcHXIE8cdAGLvI6o3P85AFCY4pxuDc8t-mTX9c2837XM",
+    "headerImage": "https://play-lh.googleusercontent.com/NAG-RH3zsxTTbQuy8iVh-XB7zzu6Od5p4x6XdgyCsNjyf2XYQ3dhDiaHYp5-GCuKigw",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/jaILUHMNKQnz8vRgANnD4bi8FftS8a8atx4wwz_vs1WqLwv4d3GLgeiUazSmWCDuZw",
+      "https://play-lh.googleusercontent.com/ycqPK7Sh27CK8LAI49dyhYgtVSuvbU3UDIhdsQ5sMwrjIAmgI1mqLp0J2VjxV1ODMw6U",
+      "https://play-lh.googleusercontent.com/dW68dEx1BYjL9sTuebvq1wG7Lfsl3U-ktEtJpioXvXyW8aBA_Fe3ns7BeLvJoyfPMmwx",
+      "https://play-lh.googleusercontent.com/zcfHYxW8ZYZFz_jyD2da-2Mgy8CIvX8fYMxK2_4t8f1xpIqd-4qWRndqbiUJK0eKYMI",
+      "https://play-lh.googleusercontent.com/-2cR52F9ejJkUGKiBu1Ng8MG8-rqT3-r-nIDb9UNoVxszd1R8gXSkx_ntMr7fyKOac3f",
+      "https://play-lh.googleusercontent.com/l9JQLDJokxwujdR9rDbRKPVr2e_l5gd2p4-xEbuI-_IoAUTdGyzjPJh35VWL_TWnCcI",
+      "https://play-lh.googleusercontent.com/3XiDcac883y3mz7jZz6J2NESjZmQF6XD0ygTP47Nn3yhBv6kVMYQa4HP217QVzhy5Q",
+      "https://play-lh.googleusercontent.com/oZNZbuwBYRy6Kf-dC3HCfRfmuzN6Isay5QVU2T-FIxlIiizyIWwLmJRJdm16uQOi",
+      "https://play-lh.googleusercontent.com/h7quyNWGV3OzB92Q-fQ0_f_o9LfGtBNWMTjZDPu6cdVsHmOHtOLKpWN29t4RaNco40zQ",
+      "https://play-lh.googleusercontent.com/6PFe1xKBAPItYDjzdO6Vf9wvCJG8Wh9Kga-E31jtUTC9dB5NlMLZQb5LtIMNJnTg964",
+      "https://play-lh.googleusercontent.com/vHrql8WQlZXSqlsEeNJdohjz1cKbdPnYPK8u7wxpgMZJaLaipnp8-RLAp-veNTgq1X5y",
+      "https://play-lh.googleusercontent.com/-EXGPPZOt0m8wTWo7ihu72ad3YjQfIXMg6ESiVhkjhj9i0Zrg_qPE-sbxyQJGJyAx80",
+      "https://play-lh.googleusercontent.com/4Jgu0-Bs47NiGA4jjP8fn-WporadHX5SxGO7yGwKxob3lkrC_c5IJ9QmNd0rEf1xaIg",
+      "https://play-lh.googleusercontent.com/_CXn3u_NYzarvR1l1yuowNa4aXExi43bfTBO9U_liSH1BHmH8n2oni7WndNOYQ_O0uZN",
+      "https://play-lh.googleusercontent.com/3985WZvPzNcCXzL69rMxObJPNTDaV0KsGARCUtwAVwIkO2sBPDWkmO4mBOHuhreIcnk",
+      "https://play-lh.googleusercontent.com/KL9x_2yidn-BrDxeQQh4WeUq0P386qfeMbmnT7E8tEIbc-D8VAmUckR70ZrHnIOtfUWL",
+      "https://play-lh.googleusercontent.com/o_gdoljob_QP4g0tROzVuKYxjjkcZFzy57Saa2qq4n4EuLZPohuxS1CZoQYa9Md42ZI",
+      "https://play-lh.googleusercontent.com/S3wJg3FeZy3J3k-7enFGE1AKaUSuNEnhQlKfpm6ulOj3mThnNa9Cs1ojTVM3UyKqJac",
+      "https://play-lh.googleusercontent.com/R4CWU2TbWhyMNkJdWlTHUvqb_pexNbwpsl-SY_Tq_8EYgXrzV-IzRVo79ZogWh3KfRs",
+      "https://play-lh.googleusercontent.com/L38Rr5nOboc1QheELFFleN4slfUuHfB8ma-pg922V9KqKYBUz1oe-Dbx3mrI1TmBzj8",
+      "https://play-lh.googleusercontent.com/m8Ys0NPdZaR-U6lEChOmfrEeGo-RKIYSpD7qy7JBpLrBC38nTXQ5KcZ0QaM7BpsV15s",
+      "https://play-lh.googleusercontent.com/-lyDnJG6E_qJlJmWwbTYMwUajebKrtwE2Xte3IhK9EjLt1u_PUOVMNk0Q5N7qC9YPA",
+      "https://play-lh.googleusercontent.com/hqJjfzYLKvFidCpAd5PcqRbnrSeGYrNcV3twoxyjgb21YnG_HMkkxvG0TETtUhjKBfPG",
+      "https://play-lh.googleusercontent.com/K63lHU-FFzZ3vvXFGxXsxTjgONsAOnt72nqzOAKc_plagNwC0loL4Ydvtn0Ey2SkUA",
+      "https://play-lh.googleusercontent.com/dJvMexPgsaUuJAPwPPK89-tPRKxFtvUCL5Hkz8tU-6VotsLMmlDkIkWL-zAWBSmSh5I",
+      "https://play-lh.googleusercontent.com/OUCxCbOT24wXJepIFtmGPmT-enCdsWsY2u6Qe5YroVwUK73A9h5jbULDFPXNt6nnfA",
+      "https://play-lh.googleusercontent.com/0R7tMOSnIE-S-_BBsEyI_k24S-lBFPYJWUoxJmT_QMuyY97PK1r4I2wMvsXxD8jUOuA",
+      "https://play-lh.googleusercontent.com/-AhMu-8bGL6SaPaouFSwb1Ze-t0lXaaBpUU-Rv1KC0h0sOKSLeBLobUiGBA7LqzJQ7o",
+      "https://play-lh.googleusercontent.com/vdp15L_XUkDU0txtC8cPTPkZdcSgZPd8H7vXoVgU89aOKZ_3UMIpH82xJTqEKF12ig",
+      "https://play-lh.googleusercontent.com/MEbr8KfFbKKgKboXJnILO2cCiNTprwfen4Q_JGXnyNc9x2fvU4k5g3kldgBjV2y_zKo",
+      "https://play-lh.googleusercontent.com/Wt7KNZxxcy4c6kLHbxiIgeeYd0Ye88ok3uz-r5zzxkP_STpmb5Y3fiaD7Q0mRjbroPg",
+      "https://play-lh.googleusercontent.com/NUTVrJr8laIzNZRQ_YZlhljtIbG1rtPl7wNPswzwWgjbSzmbLJJ2aLqQSQKqTdLoXVM"
+    ],
+    "video": null,
+    "videoImage": null,
+    "contentRating": "Everyone",
+    "contentRatingDescription": null,
+    "adSupported": false,
+    "containsAds": false,
+    "released": "Feb 1, 2024",
+    "lastUpdatedOn": "Apr 10, 2025",
+    "updated": 1744307372,
+    "version": "3.55",
+    "appId": "com.graphicvizion.visualAnatomy3D",
+    "url": "https://play.google.com/store/apps/details?id=com.graphicvizion.visualAnatomy3D&hl=en&gl=us",
+    "error": false,
+    "androidVersionText": ""
+  },
+  "secrets": [],
+  "logs": [
+    {
+      "timestamp": "2025-08-29 23:20:21",
+      "status": "Generating Hashes",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:22",
+      "status": "Extracting APK",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:22",
+      "status": "Unzipping",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:22",
+      "status": "Parsing APK with androguard",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:22",
+      "status": "Extracting APK features using aapt/aapt2",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:22",
+      "status": "Getting Hardcoded Certificates/Keystores",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:23",
+      "status": "Parsing AndroidManifest.xml",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:23",
+      "status": "Extracting Manifest Data",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:23",
+      "status": "Manifest Analysis Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:23",
+      "status": "Performing Static Analysis on: com.graphicvizion.visualAnatomy3D",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:24",
+      "status": "Fetching Details from Play Store: com.graphicvizion.visualAnatomy3D",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:24",
+      "status": "Checking for Malware Permissions",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:24",
+      "status": "Fetching icon path",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:24",
+      "status": "Library Binary Analysis Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:24",
+      "status": "Reading Code Signing Certificate",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:26",
+      "status": "Running APKiD 2.1.5",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:31",
+      "status": "Detecting Trackers",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:31",
+      "status": "Decompiling APK to Java with JADX",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:32",
+      "status": "Decompiling with JADX failed, attempting on all DEX files",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:32",
+      "status": "Converting DEX to Smali",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:32",
+      "status": "Code Analysis Started on - java_source",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:32",
+      "status": "Android SBOM Analysis Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:32",
+      "status": "Android SAST Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:32",
+      "status": "Android API Analysis Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Android API Analysis Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Android Permission Mapping Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Android Permission Mapping Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Android Behaviour Analysis Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Android Behaviour Analysis Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Extracting Emails and URLs from Source Code",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Email and URL Extraction Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Extracting String data from Code",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Extracting String values and entropies from Code",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Performing Malware check on extracted domains",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 23:20:33",
+      "status": "Saving to Database",
+      "exception": null
+    }
+  ],
+  "sbom": {
+    "sbom_versioned": [],
+    "sbom_packages": []
+  },
+  "average_cvss": null,
+  "appsec": {
+    "high": [],
+    "warning": [
+      {
+        "title": "Application Data can be Backed up",
+        "description": "[android:allowBackup] flag is missing.\nThe flag [android:allowBackup] should be set to false. By default it is set to true and allows anyone to backup your application data via adb. It allows users who have enabled USB debugging to copy application data off of the device.",
+        "section": "manifest"
+      }
+    ],
+    "info": [],
+    "secure": [
+      {
+        "title": "This application has no privacy trackers",
+        "description": "This application does not include any user or device trackers. Unable to find trackers during static analysis.",
+        "section": "trackers"
+      }
+    ],
+    "hotspot": [
+      {
+        "title": "Found 3 critical permission(s)",
+        "description": "Ensure that these permissions are required by the application.\n\nandroid.permission.WRITE_EXTERNAL_STORAGE (dangerous): read/modify/delete external storage contents - Allows an application to write to external storage.\n\nandroid.permission.READ_PHONE_STATE (dangerous): read phone state and identity - Allows the application to access the phone features of the device. An application with this permission can determine the phone number and serial number of this phone, whether a call is active, the number that call is connected to and so on.\n\nandroid.permission.READ_EXTERNAL_STORAGE (dangerous): read external storage contents - Allows an application to read from external storage.",
+        "section": "permissions"
+      }
+    ],
+    "total_trackers": 432,
+    "trackers": 0,
+    "security_score": 85,
+    "app_name": "",
+    "file_name": "com.graphicvizion.visualAnatomy3D_UnityDataAssetPack_70.apk",
+    "hash": "b7a85efb7d01d689d93924cbfcc75656",
+    "version_name": ""
+  },
+  "virus_total": null,
+  "base_url": "file:///home/mobsf/Mobile-Security-Framework-MobSF/mobsf",
+  "dwd_dir": "file:///home/mobsf/.MobSF/downloads/",
+  "host_os": "nix",
+  "timestamp": "2025-08-29T23:20:21.512Z"
+}

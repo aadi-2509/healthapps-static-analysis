@@ -1,0 +1,439 @@
+{
+  "version": "v4.4.0",
+  "title": "Static Analysis",
+  "file_name": "com.endel.endel_recovery_nature_312088200.apk",
+  "app_name": "",
+  "app_type": "apk",
+  "size": "20.13MB",
+  "md5": "54092e624e2035ddbece488eb39e41b2",
+  "sha1": "844474b1c9b707c320a26f0403cf8f4da3e02aff",
+  "sha256": "b492d1badd7ba343e048d705b4109d857479236a320317bbe66f8f3c1a874e37",
+  "package_name": "com.endel.endel",
+  "main_activity": "",
+  "exported_activities": "[]",
+  "browsable_activities": {},
+  "activities": [],
+  "receivers": [],
+  "providers": [],
+  "services": [],
+  "libraries": [],
+  "target_sdk": "",
+  "max_sdk": "",
+  "min_sdk": "",
+  "version_name": "",
+  "version_code": "312088200",
+  "icon_path": "",
+  "permissions": {
+    "android.permission.WRITE_EXTERNAL_STORAGE": {
+      "status": "dangerous",
+      "info": "read/modify/delete external storage contents",
+      "description": "Allows an application to write to external storage."
+    },
+    "android.permission.READ_PHONE_STATE": {
+      "status": "dangerous",
+      "info": "read phone state and identity",
+      "description": "Allows the application to access the phone features of the device. An application with this permission can determine the phone number and serial number of this phone, whether a call is active, the number that call is connected to and so on."
+    },
+    "android.permission.READ_EXTERNAL_STORAGE": {
+      "status": "dangerous",
+      "info": "read external storage contents",
+      "description": "Allows an application to read from external storage."
+    }
+  },
+  "malware_permissions": {
+    "top_malware_permissions": [
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.READ_PHONE_STATE",
+      "android.permission.READ_EXTERNAL_STORAGE"
+    ],
+    "other_abused_permissions": [],
+    "total_malware_permissions": 25,
+    "total_other_permissions": 44
+  },
+  "certificate_analysis": {
+    "certificate_info": "Binary is signed\nv1 signature: True\nv2 signature: True\nv3 signature: True\nv4 signature: False\nX.509 Subject: C=US, ST=California, L=Mountain View, O=Google Inc., OU=Android, CN=Android\nSignature Algorithm: rsassa_pkcs1v15\nValid From: 2019-01-31 17:54:01+00:00\nValid To: 2049-01-31 17:54:01+00:00\nIssuer: C=US, ST=California, L=Mountain View, O=Google Inc., OU=Android, CN=Android\nSerial Number: 0xcf1c6897da641903c0a83c882c461dbc24150eba\nHash Algorithm: sha256\nmd5: 898ced216fcf2b94d85d41d9b94778ff\nsha1: 8fa309c9714708a69821ad6de7d554db116d3037\nsha256: 9289c30cee30ca40278504d5d375c93ace705ebf57a444a9e30a3132d3345d19\nsha512: 7295fe5137a7fab8b9822b1c83a36e7698fb9e6a8fef202634024e68e05fb6018a5b495db7abc72c0959d7ed8e0ea7a4d00054d32be5d96364f992733263f73e\nPublicKey Algorithm: rsa\nBit Size: 4096\nFingerprint: da1db2f75ab2a4216a75ffc6596e80ba0ee2f6a22186a3e83b7b54be9af6fad3\nFound 1 unique certificates",
+    "certificate_findings": [
+      [
+        "info",
+        "Application is signed with a code signing certificate",
+        "Signed Application"
+      ]
+    ],
+    "certificate_summary": {
+      "high": 0,
+      "warning": 0,
+      "info": 1
+    }
+  },
+  "manifest_analysis": {
+    "manifest_findings": [
+      {
+        "rule": "allowbackup_not_set",
+        "title": "Application Data can be Backed up<br>[android:allowBackup] flag is missing.",
+        "severity": "warning",
+        "description": "The flag [android:allowBackup] should be set to false. By default it is set to true and allows anyone to backup your application data via adb. It allows users who have enabled USB debugging to copy application data off of the device.",
+        "name": "Application Data can be Backed up [android:allowBackup] flag is missing.",
+        "component": []
+      }
+    ],
+    "manifest_summary": {
+      "high": 0,
+      "warning": 1,
+      "info": 0,
+      "suppressed": 0
+    }
+  },
+  "network_security": {
+    "network_findings": [],
+    "network_summary": {}
+  },
+  "binary_analysis": [],
+  "file_analysis": [],
+  "android_api": {},
+  "code_analysis": {
+    "findings": {},
+    "summary": {}
+  },
+  "niap_analysis": {},
+  "permission_mapping": {},
+  "urls": [],
+  "domains": {},
+  "emails": [],
+  "strings": {
+    "strings_apk_res": {},
+    "strings_so": [],
+    "strings_code": []
+  },
+  "firebase_urls": [],
+  "files": [
+    "AndroidManifest.xml",
+    "assets/recovery_nature_album/meta/mode.json",
+    "assets/recovery_nature_album/meta/modeButton.json",
+    "assets/recovery_nature_album/meta/modeTap.json",
+    "assets/recovery_nature_album/sound/audio/assets2.opus",
+    "assets/recovery_nature_album/sound/scene.edl",
+    "stamp-cert-sha256",
+    "META-INF/BNDLTOOL.SF",
+    "META-INF/BNDLTOOL.RSA",
+    "META-INF/MANIFEST.MF"
+  ],
+  "exported_count": {
+    "exported_activities": 0,
+    "exported_services": 0,
+    "exported_receivers": 0,
+    "exported_providers": 0
+  },
+  "apkid": {},
+  "behaviour": {},
+  "trackers": {
+    "detected_trackers": 0,
+    "total_trackers": 432,
+    "trackers": []
+  },
+  "playstore_details": {
+    "title": "Endel: Focus, Relax & Sleep",
+    "description": "Focus, relax, and sleep through the power of sound. Endel creates AI-powered sounds designed to support your everyday life. Backed by science, and enjoyed by millions worldwide. \r\n\r\nEndel is powered by its patented core AI technology. It takes inputs like location, environment, and heart rate, to create the optimal personalized soundscape. This happens on the fly and allows Endel to reconnect your state with your circadian rhythm\r\n\r\n\u2022 Relax \u2013 calms your mind to create feelings of comfort and safety\r\n\r\n\u2022 Focus \u2013 boosts your productivity by helping you concentrate for longer\r\n\r\n\u2022 Sleep \u2013 soothes you into a deep sleep with soft, gentle sounds\r\n \r\n\u2022 Recovery \u2013 revives your wellbeing with sounds engineered to lower anxiety\r\n \r\n\u2022 Study \u2013 improves concentration and keeps you calm whilst studying or working\r\n \r\n\u2022 Move \u2013 boosts performance and enjoyment while walking, hiking, and running\r\n \r\nEndel collaborations\r\n\r\nAlongside the much-loved Endel classics, Endel works with innovative artists and thinkers to create original experiences. Grimes, Miguel, Alan Watts, and Richie Hawtin aka Plastikman have all contributed to the growing catalog of soundscapes \u2013\u2013 with more on the way. \r\n\r\n\u2022 James Blake: Wind Down \u2013 designed to support a healthy routine before bed \u2013 easing from evening to sleep with supportive sounds.\r\n\r\n\u2022 Grimes: AI Lullaby \u2013 original vocals and music created by Grimes. Scientifically engineered for sleep\r\n \r\n\u2022 Miguel: Clarity Trip \u2013 made for mindful walks, hikes or runs. With original adaptive sounds from Grammy-winning artist, Miguel.\r\n \r\n\u2022 Alan Watts: Wiggly Wisdom \u2013 soothing and motivating spoken word soundscape. Infused with the playful wisdom of Alan Watts\r\n \r\n\u2022 Plastikman: Deeper Focus \u2013 a deep focus techno soundscape created with Richie Hawtin\r\n\r\nUse at home, work, or on the move to relax, concentrate, and minimize distractions and brain fatigue. All modes are available offline.\r\n\r\nUsing Wear OS app you can see the current and upcoming biological rhythms phases right on your watch face without opening the app. Use them as an energy compass to navigate the day.\r\n\r\nENDEL SUBSCRIPTION\r\n\r\nYou can subscribe to Endel, choosing from the following plans:\r\n\r\n\u2013 1 month\r\n\r\n\u2013 12 months\r\n\r\n\u2013 Lifetime\r\n\r\nThe subscription automatically renews unless auto-renewal is turned off at least 24 hours before the end of the current period.\r\n\r\nPayment will be charged to your account at confirmation of purchase.\r\n\r\nAccount will be charged for renewal within 24 hours of the end of the current period, and the cost of the renewal will be provided.\r\n\r\nSubscriptions may be managed by the user. Auto-renewal may be turned off by going to the user\u2019s Account Settings after purchase.\r\n\r\nNo cancellation of the current subscription is allowed during active subscription period.\r\n\r\nAny unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication.\r\n\r\nFor more information:\r\n\r\nTerms of Use - https://endel.zendesk.com/hc/en-us/articles/360003558200\r\n\r\nPrivacy Policy - https://endel.zendesk.com/hc/en-us/articles/360003562619",
+    "summary": "Calming & relaxing sounds for sleeping and stress relief. Stay focused all day!",
+    "installs": "1,000,000+",
+    "minInstalls": 1000000,
+    "realInstalls": 1803600,
+    "score": 4.4324327,
+    "ratings": 16313,
+    "reviews": 819,
+    "histogram": [
+      1661,
+      293,
+      293,
+      1124,
+      12931
+    ],
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "sale": false,
+    "saleTime": null,
+    "originalPrice": null,
+    "saleText": null,
+    "offersIAP": true,
+    "inAppProductPrice": "$6.00 - $249.99 per item",
+    "developer": "Endel Sound GmbH",
+    "developerId": "Endel+Sound+GmbH",
+    "developerEmail": "ask@endel.io",
+    "developerWebsite": "https://endel.io/",
+    "developerAddress": null,
+    "privacyPolicy": "https://endel.zendesk.com/hc/en-us/articles/360003562619",
+    "genre": "Health & Fitness",
+    "genreId": "HEALTH_AND_FITNESS",
+    "categories": [
+      {
+        "name": "Health & Fitness",
+        "id": "HEALTH_AND_FITNESS"
+      }
+    ],
+    "icon": "https://play-lh.googleusercontent.com/3igeqB6-iF8X7BXMea6NwHtvCF_CFdpDWmzg1Ek2DoAApCJrEpH4WyYRgLCITn9DAg",
+    "headerImage": "https://play-lh.googleusercontent.com/CJUPQc8XUnoqzqSUoOBGPKQs8xpcB-LIWCApR9AVyGSjlixfE798uMyv5znSJRJ3s1P-",
+    "screenshots": [
+      "https://play-lh.googleusercontent.com/Je5fp1DdO4wmZIm2ROZDDydFbxkDAP3txV0qZ_cvS96o_UONm_tsslgX4Bv6lv0e7eI",
+      "https://play-lh.googleusercontent.com/BUzjK5Xh1L_aaE_vj3tAeoWyP6mEEh9TlOSHQDr-VCAKrehBZB3-Xy84kjBFrWWm0CY",
+      "https://play-lh.googleusercontent.com/RHZldJoLCCJP6neyb2WgvcbzXPz0ATYkvOgVE07aI5w4micYPsScUSeVjh44a39Aq_E",
+      "https://play-lh.googleusercontent.com/oMWAcOuijGMdfZPcgyatjAWdRGi-cN45zUan8nb_FAgfDHV5eN3x6iVh_O0NPlMxdaRU",
+      "https://play-lh.googleusercontent.com/5c5wJytI924GzxY41YcamaQpmMyyGKoFGzuswjuL0ignm79AANqC7qc2xTtXGkwZ1qU",
+      "https://play-lh.googleusercontent.com/4e4Yv-B-LPUKOju4ewRUuwCSdoWu4vtjAjOZedl0p8il3atqYEqja_WRob_QuKBOCA",
+      "https://play-lh.googleusercontent.com/tAEGkEniypm3i-lcmNZz_WGlSfugMtmGkB5qSXXtsbLv-hL010FHLoq59sTrVfGoB2sv",
+      "https://play-lh.googleusercontent.com/QxVKzMYAGuzir1XbGJbJDer-TRlfngnREhMDl7ASy2tYrRTi6Rsq7ZayU5_yzU6fU3c",
+      "https://play-lh.googleusercontent.com/1y_sFCUuthtpq0vDF1qMN737JUSUMT8Vh6pPpacCitvcCw5a27H6xpbBP9Br8H2x3E0",
+      "https://play-lh.googleusercontent.com/fenRkpIyhhdgaZfJE8UgvNILGX3cc1SycC2b2ehkuP-sr0uwi0wzp5WwGdwLf_Ai29M",
+      "https://play-lh.googleusercontent.com/f8stKL1kKi-onFBmwWtdBzpti3BeEl7yQ--Z6GTs8yALNkt_5KWJxydtLwPP7mINNfg",
+      "https://play-lh.googleusercontent.com/RxAWTTb9UQCeMHgbawegRmXzFo97lnxcdK3M6cU8Jnq4Taq9J2y74Zf-5EYV5L-e0IM",
+      "https://play-lh.googleusercontent.com/IJqINryWfhIvskvKLPg1PwPIEa8a9wn0RF2VOuVIIDeajfFtxaTN-Ia7Qr_NThRNd-8",
+      "https://play-lh.googleusercontent.com/WJRZPfu-0xXbx_s22lIcu15QlyF1ADA3FmF4dZ47FgeXcZKv_a7WYFjqVHYuHagCJgg",
+      "https://play-lh.googleusercontent.com/wc6kE_ydf4QGYZQY0HhMmEmOAvsw8e-VmZORB9WV46UQmcIX8ffhrcUXgsQVbNBmf-xf",
+      "https://play-lh.googleusercontent.com/K76D_Etel76wwxo1yqM5tm8SqgZ1eNVLHtpATOZffnPUKE69p8wBGm3w4iYtndW2g3in",
+      "https://play-lh.googleusercontent.com/5F-K29OmM6i_GUCLklHujuZD_kL9s0Xu4fxIJjBCABPfusJVSm9y6qMRP_19nr-6VA",
+      "https://play-lh.googleusercontent.com/qzquLOgwETbKxepltR7Lwfx1OI1PGTflsZ4zIevVzhsLl3HoChB4X6D43IdnpAwdv1k",
+      "https://play-lh.googleusercontent.com/z7-F6xeF9WQlwpdd48U0FgIGV1-6EdWU9KOdM1WtmNWBYZBY706YGUI7Fwb6C2aKDm4",
+      "https://play-lh.googleusercontent.com/O-3n-wuG5kFbjeR_WRzNuNITOtJSeYj_g3dlrBmWrlj9EsSlkYwWZTsxkhcdq_XAEKo",
+      "https://play-lh.googleusercontent.com/-s6Jtoazsekc22Iya73Su3yH-2tvqJW-TkpvgFbbL6P-p0benJu61f9MoU8fu1puoQ",
+      "https://play-lh.googleusercontent.com/V526r7bpBP07sSwS7Im9t__40GBm-ese7oADv_NGLi7G5KghxjVtQwqHCwvnBe5cbDU6",
+      "https://play-lh.googleusercontent.com/5zE25lQ0gQXCSqNTkCBm3ZJYNv2yn4DzCp-Wh3KIv6cyTmBC2QNAdZqpfgPrPOfhHxo",
+      "https://play-lh.googleusercontent.com/awFe7iXP_PgypUgFvgGpLa0zclh34JH7m8hxs5uTgRVwelh9KQv7uRgsrQqSLo9ruX0M",
+      "https://play-lh.googleusercontent.com/b020kI1_3PVnwcTjOGkDtewV-BNBoErlPL77HeCkNQWjMRyM9AoxDT_7PSgcYm0ECo1Y",
+      "https://play-lh.googleusercontent.com/S9MhCblKykONk2P-4DpORe0Ci4nFV21BpAvWimvbJ1TPXLBBMrT0x3Mo-adBgS8NpvRj",
+      "https://play-lh.googleusercontent.com/ldWYzBqUcJ136jKpG1r9c9NiNY62tarY9JQBx0KHeruZVqoVi-ImjiQf38HAg487kQ"
+    ],
+    "video": null,
+    "videoImage": null,
+    "contentRating": "Everyone",
+    "contentRatingDescription": null,
+    "adSupported": false,
+    "containsAds": false,
+    "released": "May 29, 2019",
+    "lastUpdatedOn": "Aug 5, 2025",
+    "updated": 1754404290,
+    "version": "Varies with device",
+    "appId": "com.endel.endel",
+    "url": "https://play.google.com/store/apps/details?id=com.endel.endel&hl=en&gl=us",
+    "error": false,
+    "androidVersionText": ""
+  },
+  "secrets": [],
+  "logs": [
+    {
+      "timestamp": "2025-08-29 22:07:23",
+      "status": "Generating Hashes",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:23",
+      "status": "Extracting APK",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:23",
+      "status": "Unzipping",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:23",
+      "status": "Parsing APK with androguard",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:23",
+      "status": "Extracting APK features using aapt/aapt2",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:23",
+      "status": "Getting Hardcoded Certificates/Keystores",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:24",
+      "status": "Parsing AndroidManifest.xml",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:24",
+      "status": "Extracting Manifest Data",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:24",
+      "status": "Manifest Analysis Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:24",
+      "status": "Performing Static Analysis on: com.endel.endel",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:25",
+      "status": "Fetching Details from Play Store: com.endel.endel",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:26",
+      "status": "Checking for Malware Permissions",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:26",
+      "status": "Fetching icon path",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:26",
+      "status": "Library Binary Analysis Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:26",
+      "status": "Reading Code Signing Certificate",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:26",
+      "status": "Running APKiD 2.1.5",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:28",
+      "status": "Detecting Trackers",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:28",
+      "status": "Decompiling APK to Java with JADX",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:29",
+      "status": "Decompiling with JADX failed, attempting on all DEX files",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:29",
+      "status": "Converting DEX to Smali",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:29",
+      "status": "Code Analysis Started on - java_source",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:29",
+      "status": "Android SBOM Analysis Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:29",
+      "status": "Android SAST Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:29",
+      "status": "Android API Analysis Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:29",
+      "status": "Android API Analysis Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:29",
+      "status": "Android Permission Mapping Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:30",
+      "status": "Android Permission Mapping Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:30",
+      "status": "Android Behaviour Analysis Started",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:30",
+      "status": "Android Behaviour Analysis Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:30",
+      "status": "Extracting Emails and URLs from Source Code",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:30",
+      "status": "Email and URL Extraction Completed",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:30",
+      "status": "Extracting String data from Code",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:30",
+      "status": "Extracting String values and entropies from Code",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:30",
+      "status": "Performing Malware check on extracted domains",
+      "exception": null
+    },
+    {
+      "timestamp": "2025-08-29 22:07:30",
+      "status": "Saving to Database",
+      "exception": null
+    }
+  ],
+  "sbom": {
+    "sbom_versioned": [],
+    "sbom_packages": []
+  },
+  "average_cvss": null,
+  "appsec": {
+    "high": [],
+    "warning": [
+      {
+        "title": "Application Data can be Backed up",
+        "description": "[android:allowBackup] flag is missing.\nThe flag [android:allowBackup] should be set to false. By default it is set to true and allows anyone to backup your application data via adb. It allows users who have enabled USB debugging to copy application data off of the device.",
+        "section": "manifest"
+      }
+    ],
+    "info": [],
+    "secure": [
+      {
+        "title": "This application has no privacy trackers",
+        "description": "This application does not include any user or device trackers. Unable to find trackers during static analysis.",
+        "section": "trackers"
+      }
+    ],
+    "hotspot": [
+      {
+        "title": "Found 3 critical permission(s)",
+        "description": "Ensure that these permissions are required by the application.\n\nandroid.permission.WRITE_EXTERNAL_STORAGE (dangerous): read/modify/delete external storage contents - Allows an application to write to external storage.\n\nandroid.permission.READ_PHONE_STATE (dangerous): read phone state and identity - Allows the application to access the phone features of the device. An application with this permission can determine the phone number and serial number of this phone, whether a call is active, the number that call is connected to and so on.\n\nandroid.permission.READ_EXTERNAL_STORAGE (dangerous): read external storage contents - Allows an application to read from external storage.",
+        "section": "permissions"
+      }
+    ],
+    "total_trackers": 432,
+    "trackers": 0,
+    "security_score": 85,
+    "app_name": "",
+    "file_name": "com.endel.endel_recovery_nature_312088200.apk",
+    "hash": "54092e624e2035ddbece488eb39e41b2",
+    "version_name": ""
+  },
+  "virus_total": null,
+  "base_url": "file:///home/mobsf/Mobile-Security-Framework-MobSF/mobsf",
+  "dwd_dir": "file:///home/mobsf/.MobSF/downloads/",
+  "host_os": "nix",
+  "timestamp": "2025-08-29T22:07:23.777Z"
+}
