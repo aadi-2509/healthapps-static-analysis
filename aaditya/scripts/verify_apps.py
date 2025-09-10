@@ -17,10 +17,10 @@ else:
     raise FileNotFoundError("config.json not found – create it from config.example.json")
     
 # Paths
-input_file = "/home/local/ASURITE/amodi22/apps_lists/apps_list.txt"   # raw list
-output_file = "/home/local/ASURITE/amodi22/apps_lists/verified_apps.txt"  # clean list
-download_dir = "/home/local/ASURITE/amodi22/apks"  # where APKs/XAPKs are saved
-
+input_file   = cfg.get("APPS_LIST_INPUT", "/home/local/ASURITE/amodi22/apps_lists/apps_list.txt")   # raw list
+output_file  = cfg.get("APPS_LIST_OUTPUT", "/home/local/ASURITE/amodi22/apps_lists/verified_apps.txt")  # clean list
+download_dir = cfg.get("DOWNLOAD_DIR", "/home/local/ASURITE/amodi22/apks")  # where APKs/XAPKs are saved
+    
 # Create download folder if it doesn't exist
 os.makedirs(download_dir, exist_ok=True)
 
