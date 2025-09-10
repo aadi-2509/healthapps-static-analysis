@@ -3,9 +3,23 @@ import json
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# -------------------------
+# CONFIG LOADER
+# -------------------------
+
+HERE = os.path.dirname(os.path.realpath(__file__))         
+REPO_ROOT = os.path.abspath(os.path.join(HERE, ".."))      
+CONFIG_PATH = os.path.join(REPO_ROOT, "config.json")
+
+if os.path.exists(CONFIG_PATH):
+    with open(CONFIG_PATH) as f:
+        cfg = json.load(f)
+else:
+    raise FileNotFoundError("config.json not found – create it from config.example.json")
+
 # Paths
-REPORTS_DIR = "/mnt/data/projects/HealthApps/women_health_apps/"
-OUTPUT_DIR = "/mnt/data/projects/HealthApps/summary_reports_women_apps/"
+REPORTS_DIR = cfg.get("REPORTS_DIR", "/mnt/data/projects/HealthApps/women_health_apps/")
+OUTPUT_DIR  = cfg.get("OUTPUT_DIR", "/mnt/data/projects/HealthApps/summary_reports_women_apps/")
 
 # Create output dir if not exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
