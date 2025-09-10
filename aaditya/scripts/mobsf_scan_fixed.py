@@ -8,13 +8,26 @@ import argparse
 import requests
 
 # -------------------------
+# CONFIG LOADER
+# -------------------------
+HERE = os.path.dirname(os.path.realpath(__file__))         # aaditya/scripts
+REPO_ROOT = os.path.abspath(os.path.join(HERE, ".."))      # aaditya/
+CONFIG_PATH = os.path.join(REPO_ROOT, "config.json")
+
+if os.path.exists(CONFIG_PATH):
+    with open(CONFIG_PATH) as f:
+        cfg = json.load(f)
+else:
+    raise FileNotFoundError("config.json not found – create it from config.example.json")
+
+# -------------------------
 # CONFIG - use your values
 # -------------------------
-MOBSF_URL = "http://129.219.60.5:8000"   # MobSF host
-API_KEY   = "f510bd5ddf94a5244b34990348df020fbf98913da7583da06213ffc03294fb3f"
-APK_DIR   = "/mnt/data/projects/HealthApps/android/base_apks"
-REPORT_DIR= "/mnt/data/projects/HealthApps/mobsf_reports"
-HEADERS   = {"Authorization": API_KEY}
+MOBSF_URL   = cfg.get("MOBSF_URL")    # MobSF host
+API_KEY     = cfg.get("MOBSF_API_KEY")
+APK_DIR     = cfg.get("BASE_APKS_DIR")
+REPORT_DIR  = cfg.get("MOBSF_REPORTS_DIR")
+HEADERS     = {"Authorization": API_KEY}
 
 # -------------------------
 # Helpers
