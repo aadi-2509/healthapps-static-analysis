@@ -1,0 +1,12 @@
+{
+  "MOBSF_URL": "http://YOUR_MOBSF_HOST:8000",
+  "MOBSF_API_KEY": "YOUR_API_KEY",
+  "BASE_APKS_DIR": "/path/to/base_apks",
+  "LATEST_APKS_DIR": "/path/to/latest_apks",
+  "MOBSF_REPORTS_DIR": "/path/to/mobsf_reports",
+  "REPORTS_DIR": "/path/to/json_reports",
+  "OUTPUT_DIR": "/path/to/summary_reports",
+  "APPS_LIST_INPUT": "/path/to/apps_list.txt",
+  "APPS_LIST_OUTPUT": "/path/to/verified_apps.txt",
+  "DOWNLOAD_DIR": "/path/to/apks"
+}
