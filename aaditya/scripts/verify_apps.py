@@ -1,6 +1,21 @@
 import os
 import re
+import json
 
+# -------------------------
+# CONFIG LOADER
+# -------------------------
+
+HERE = os.path.dirname(os.path.realpath(__file__))         
+REPO_ROOT = os.path.abspath(os.path.join(HERE, ".."))      
+CONFIG_PATH = os.path.join(REPO_ROOT, "config.json")
+
+if os.path.exists(CONFIG_PATH):
+    with open(CONFIG_PATH) as f:
+        cfg = json.load(f)
+else:
+    raise FileNotFoundError("config.json not found – create it from config.example.json")
+    
 # Paths
 input_file = "/home/local/ASURITE/amodi22/apps_lists/apps_list.txt"   # raw list
 output_file = "/home/local/ASURITE/amodi22/apps_lists/verified_apps.txt"  # clean list
